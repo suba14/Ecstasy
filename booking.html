@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html><head><title>Own Your Ecstasy</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background: url(https://www.rolls-roycemotorcars-newdelhi.in/media/2325/cbbhero.jpg?anchor=center&mode=crop&width=2000&height=1440&rnd=132179591110000000&quality=75&format=jpg);}
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #008800;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #880000;
+}
+
+.cancelbtn, .paymentbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+h1,label{
+  color: white;
+}
+#one{
+color: white;
+}
+.jumbotron{
+  background: transparent;
+  text-align: center;
+}
+#contact{
+  color: white;
+  text-align: center;
+}
+#news{
+  color:white;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+.fa-instagram {
+  background: #000000;
+  color: white;
+  }
+.fa-youtube {
+  background: #000000;
+  color: white;
+}
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+label{
+  padding-top: 40px;
+  font-size: 20px;
+  }
+  h1,#contact{font-family: 'Calistoga', cursive;}
+</style></head>
+<body>
+ <div class="container">
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Own Your Ecstasy</h1>
+    <p id="one">Please fill in this form to proceed for payment.</p>
+    <hr>
+
+    <label for="model"><b>Model</b></label>
+    <select id="model">
+    <option value="Select Model">Select Model</option>
+    <option value="PHANTOM">PHANTOM</option>
+    <option value="CULLINAN">CULLINAN</option>
+    <option value="BLACK BADGE CULLINAN">BLACK BADGE CULLINAN</option>
+    <option value="GHOST">GHOST</option>
+    <option value="GHOST BLACK BADGE">GHOST BLACK BADGE</option>
+    <option value="WRAITH">WRAITH</option>
+    <option value="DAWN">DAWN</option>
+    <option value="DAWN BLACK BADGE">DAWN BLACK BADGE</option>
+</select>
+<br>
+    <label for="fuel"><b>Fuel type</b></label>
+    <select id="fuel">
+      <option value="Select Model">Select Type</option>
+      <option value="PETROL">PETROL</option>
+    <option value="DIESEL">DIESEL</option>
+    </select>
+<br>
+    <label for="color"><b>Color</b></label>
+    <select id="color">
+      <option value="Select Model">Select Color</option>
+    <option value="BLACK">BLACK</option>
+    <option value="WHITE">WHITE</option>
+    <option value="BROWN">BROWN</option>
+    <option value="SILVER">SILVER</option>
+    <option value="BLUE">BLUE</option>
+    <option value="RED">RED</option>
+    </select>
+<br>
+    <label for="state"><b>Dealer State</b></label>
+    <select id="state">
+      <option value="Select Model">Select State</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Tamilnadu">Tamilnadu</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    </select>
+
+<br>
+    <label for="city"><b>Dealer City</b></label>
+    <select id="city">
+      <option value="Select Model">Select City</option>
+      <option value="Hyderabad">Hyderabad</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bengaluru">Bengaluru</option>
+    <option value="Trivandrum">Trivandrum</option>
+    </select>
+    
+<br>
+    
+    <label>
+      <input type="checkbox" name="remember" style="margin-bottom:15px"> Confirm Details
+    </label>
+    
+    <p id="one">By proceeding with payment you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="paymentbtn">Proceed for payment</button>
+    </div>
+  </div>
+</form>
+</div>
+<footer class="jumbotron">
+  <h2 id="contact">Stay Informed</h2>
+    <br>
+    <h6 id="news">Get the latest news from Ecstasy</h6>
+
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/login" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://in.linkedin.com/" class="fa fa-linkedin"></a>
+</footer>
+</body>
+</html>
