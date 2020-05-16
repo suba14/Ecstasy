@@ -1,0 +1,75 @@
+.bg-dark{
+	background: rgba(0,0,0)!important;
+}
+.navbar-brand{
+	font-family: 'Yeseva One', cursive;
+	letter-spacing: 0.2rem;
+	font-size: 25px;}
+.nav-link{
+	font-family: 'Calistoga', cursive;
+}
+h2{
+	font-family: 'Calistoga', cursive;}
+body{
+	background: black;
+}
+
+.gallery{
+	color: white;
+	padding-top: 3%; 
+	padding-bottom: 4%;
+	text-align: center;
+	}
+.one{
+padding-top: 4%;
+}
+#one{
+	padding-top: 14%;
+	text-align: center;
+}
+#two{
+	padding-top: 17%;
+	text-align: center;
+}
+.two{
+padding-top: 6%;
+}
+.three{
+padding-top: 4%;
+}
+#three{
+	padding-top: 25%;
+	text-align: center;
+}
+.four{
+padding-top: 4%;
+}
+#four{
+    padding-top: 25%;
+	text-align: center;	
+}
+.five{
+padding-top: 4%;
+}
+#five{
+	padding-top: 25%;
+	text-align: center;	
+}
+#contact{
+	color: white;
+	text-align: center;
+}
+#news{
+	color:white;
+	text-align: center;
+}
+.jumbotron{
+	background: black;
+	text-align: center;
+}
+#font{
+	 font-family: 'Baloo 2', cursive;
+	 font-size: 20px;
+	 letter-spacing: 0.1rem;
+	 padding-top: 4px;
+}

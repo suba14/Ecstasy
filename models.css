@@ -1,0 +1,40 @@
+h1{font-family: 'Patua One', cursive;
+letter-spacing: 0.2rem;}
+h3{font-family: 'Balsamiq Sans', cursive;
+letter-spacing: 0.3rem;}
+p{font-family: 'Merienda', cursive;
+letter-spacing: 0.2rem;}
+body{
+	background: url(https://cdn.pixabay.com/photo/2014/10/04/12/13/star-472968_960_720.jpg);
+}
+h1{
+	padding-top: 8%;
+	padding-left: 15%;
+	text-align: left;
+	padding-bottom: 10%;
+	color: white;
+}
+.jumbotron-fluid{
+  background: url(https://www.rolls-roycemotorcars-newdelhi.in/media/1005/porto-cervo-wraith-black-badge.jpg?anchor=center&mode=crop&width=2000&height=800&rnd=131769075150000000&quality=75&format=jpg);
+ }
+.row{
+
+	padding-left: 10%;
+}
+.one,.two{
+padding-top: 5%;
+	padding-bottom: 7%;
+}
+h3{
+	padding-top: 4%;
+    text-align: left;
+    padding-bottom: 3%;
+    color: #FFFFFF;
+}
+
+p{
+	text-align: justify;
+	font-size: 20px;
+	padding-right:15%; 
+	color: #FFFFFF;
+}

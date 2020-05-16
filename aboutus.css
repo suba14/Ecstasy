@@ -1,0 +1,53 @@
+.container{
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+body{
+	background: white;
+
+}
+h1{
+	padding-top: 2%;
+	text-align: center;
+	letter-spacing: 0.2rem;
+	font-family: 'Lateef', cursive;
+	font-size: 50px; 
+}
+h2{font-family: 'Lateef', cursive;
+font-size: 30px; 
+letter-spacing: 0.2rem;}
+p{
+	text-align: center;
+	font-size: 25px;
+	padding-right: 10%;
+	padding-left: 10%;
+	font-family: 'Bellota Text', cursive;
+	line-height: 50px;
+}
+.one{
+	background: black;
+}
+* {
+  box-sizing: border-box;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-top:20px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h2{
+	text-align: center;
+}
+
+
